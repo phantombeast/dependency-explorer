@@ -10,8 +10,21 @@ export const getDependencySuccess = (data) => ({
     data
 });
 
+export const getPackage = (data) => ({
+    type: GET_PACKAGE,
+    data
+});
+
 export const getPackageSuccess = (data) => ({
     type: GET_PACKAGE_SUCCESS,
+    data
+});
+export const getSearchResult = (data) => ({
+    type: GET_SEARCH_RESULT,
+    data
+});
+export const getSearchResultSuccess = (data) => ({
+    type: GET_SEARCH_RESULT_SUCCESS,
     data
 });
 
